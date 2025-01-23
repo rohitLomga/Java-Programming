@@ -10,38 +10,41 @@ public class DayOfTheWeek {
 
         System.out.println("Enter 1 to 7 to find the day of the week : ");
         int day = scanner.nextInt();
+        String today;
 
         switch (day){
             case 1:
-                System.out.println("Monday");
+                today = "Monday";
                 break;
 
             case 2:
-                System.out.println("Tuesday");
+                today = "Tuesday";
                 break;
 
             case 3:
-                System.out.println("Wednesday");
+                today = "Wednesday";
                 break;
 
             case 4:
-                System.out.println("Thursday");
+                today = "Thursday";
                 break;
 
             case 5:
-                System.out.println("Friday");
+                today = "Friday";
                 break;
 
             case 6:
-                System.out.println("Saturday");
+                today = "Saturday";
                 break;
 
             case 7:
-                System.out.println("Sunday");
+                today = "Sunday";
                 break;
 
             default:
                 System.out.println("A week has only seven days");
         }
+
+        System.out.println(today);
     }
 }
