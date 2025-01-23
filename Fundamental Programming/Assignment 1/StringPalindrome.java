@@ -1,4 +1,7 @@
 package Assignment1;
+// This is not exact like hint given in assignment
+// Improve Later
+// It is From GPT
 
 import java.util.Scanner;
 
