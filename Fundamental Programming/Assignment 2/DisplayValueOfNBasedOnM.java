@@ -1,7 +1,10 @@
+import java.util.Scanner;
+
 public class DisplayValueOfNBasedOnM {
     public static void main(String[] args){
 
-        int m = -5;
+        Scanner scanner = new Scanner(System.in);
+        int m = scanner.nextInt();
 
         if(m  > 0){
             System.out.println("The value of n = 1");
