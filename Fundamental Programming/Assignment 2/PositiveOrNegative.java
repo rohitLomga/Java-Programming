@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
 public class PositiveOrNegative {
     public static void main(String[] args){
-        int number = 15;
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Enter the number : ");
+        int number = scanner.nextInt();
 
         if(number < 0){
             System.out.println("This is negative number");
